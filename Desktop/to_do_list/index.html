@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/comprobado.png">
+    <title>To do listo</title>
+</head>
+<body>
+    <img class="logo" src="img/logo Cesde_magenta (1).webp" alt="logo cesde" width="300px" height="90px">
+    <h1>To do list</h1>
+<form action="#" id="userInput">
+    <input type="text" id="taskInput" placeholder="Escribe tu tarea aquí..." autofocus>
+
+    <input type="submit" value="+" id="addBtn" title="Agregar tarea" aria-label="Agregar tarea">
+
+    <div id="list-container">
+        <div class="task-container" id="1">
+            <input type="checkbox">
+            
+            <label >Tarea 1</label>
+            <img src="img/eliminar.png" alt="Eliminar tarea" class="delete-btn">
+        </div>
+    </div>
+
+    <div id="stats">
+        Tareas pendientes: 1 tareas completadas: 0    
+    </div>
+</form>
+<script src="todoListo.js"></script>
+</body>
+</html>
